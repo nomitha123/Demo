@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            margin:0;
+            padding: 0;
+        }
+        #box1{
+            background-color: blue;
+        }
+        #box2{
+            background-color: rgb(125, 97, 49);
+        }
+        #box3{
+            background-color: rgb(106, 214, 64);
+        }
+        #box4{
+            background-color: rgb(72, 72, 154);
+        }
+        .container{
+            
+            height: 100vh;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    </style>
+</head>
+<body>
+    <img width="300"px height="200"px src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="">
+    <div class="container">
+        
+        <div class="box" id="box1">BOX1</div>
+        <div class="box" id="box2">BOX2</div>
+        <div class="box" id="box3">BOX3</div>
+        <div class="box" id="box4">BOX4</div>
+        <div class="box" id="box1">BOX5</div>
+        <div class="box" id="box2">BOX6</div>
+        <div class="box" id="box3">BOX7</div>
+        <div class="box" id="box4">BOX8</div>
+        
+    </div>
+</body>
+</html>
